@@ -5,4 +5,11 @@
     # gcc compiler
 
 yum update -y
-yum -y group install "Development Tools"
+yum install g++
+yum install gcc
+yum install gcc-c++
+yum install cmake
+yum install make
+
+g++ ./demo.cpp -o demoTest
+./demoTest
