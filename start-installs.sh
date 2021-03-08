@@ -5,6 +5,4 @@
     # gcc compiler
 
 yum update -y
-
-sudo su
 yum -y group install "Development Tools"
