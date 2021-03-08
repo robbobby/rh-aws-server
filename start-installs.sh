@@ -4,6 +4,7 @@
 #purpose: AWS EC2 Instance initial server installs,:
     # gcc compiler
 
+yum update -y
 
 sudo su
 yum -y group install "Development Tools"
