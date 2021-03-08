@@ -11,5 +11,5 @@ yum install gcc-c++
 yum install cmake
 yum install make
 
-g++ ./demo.cpp -o demoTest
-./demoTest
+g++ .rh-aws-server/demo.cpp -o demoTest
+.rh-aws-server/demoTest
