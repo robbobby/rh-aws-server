@@ -5,11 +5,11 @@
     # gcc compiler
 
 yum update -y
-yum install g++
-yum install gcc
-yum install gcc-c++
-yum install cmake
-yum install make
+yum install -y g++
+yum install -y gcc
+yum install -y gcc-c++
+yum install -y cmake
+yum install -y make
 
 g++ .rh-aws-server/demo.cpp -o demoTest
 .rh-aws-server/demoTest
