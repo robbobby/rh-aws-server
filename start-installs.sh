@@ -12,6 +12,10 @@ yum install -y cmake
 yum install -y make
 yum install -y java-1.8.0
 
+cd /usr/bin
 git clone https://github.com/robbobby/rh-aws-server.git
+chmod +x ./rh-aws-server/demo.cpp -o /usr/bin/rh-aws-server/demoTest
+chmod +x ./rh-aws-server/demo.cpp -o /usr/bin/rh-aws-server/jenkins-install.sh
+chmod +x ./rh-aws-server/demo.cpp -o /usr/bin/rh-aws-server/demoTest
 g++ ./rh-aws-server/demo.cpp -o /usr/bin/rh-aws-server/demoTest
-./jenkins-install.sh
+/usr/bin/rh-aws-server/jenkins-install.sh
