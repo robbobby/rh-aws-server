@@ -17,3 +17,5 @@ chmod +x /usr/bin/rh-aws-server/jenkins-install.sh
 g++ /usr/bin/rh-aws-server/demo.cpp -o /usr/bin/rh-aws-server/demoTest
 
 /usr/bin/rh-aws-server/jenkins-install.sh
+
+/usr/bin/rh-aws-server/run-service.sh
