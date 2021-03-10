@@ -14,6 +14,7 @@ yum install -y java-1.8.0
 
 chmod +x /usr/bin/rh-aws-server/demo.cpp
 chmod +x /usr/bin/rh-aws-server/jenkins-install.sh
+chmod +x /usr/bin/rh-aws-server/run-service.sh
 g++ /usr/bin/rh-aws-server/demo.cpp -o /usr/bin/rh-aws-server/demoTest
 
 /usr/bin/rh-aws-server/jenkins-install.sh
