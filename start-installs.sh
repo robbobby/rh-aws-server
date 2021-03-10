@@ -10,6 +10,8 @@ yum install -y gcc
 yum install -y gcc-c++
 yum install -y cmake
 yum install -y make
+yum install -y java-1.8.0
 
+git clone https://github.com/robbobby/rh-aws-server.git
 g++ ./rh-aws-server/demo.cpp -o /usr/bin/rh-aws-server/demoTest
-./rh-aws-server/demoTest
+./jenkins-install.sh
